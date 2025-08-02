@@ -2,6 +2,7 @@
 #define MAIN_H
 
 #include <ncurses.h>
+#include "postgres.h"
 
 #define FRONTEND 1
 #include "postgres_fe.h"
