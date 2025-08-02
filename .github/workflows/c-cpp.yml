@@ -16,6 +16,6 @@ jobs:
     - name: apt
       run: sudo apt update
     - name: dependencies
-      run: sudo apt install  postgresql-common postgresql-server-dev-16
+      run: sudo apt install build-essential libncurses-dev postgresql-common postgresql-server-dev-16
     - name: make
       run: make
